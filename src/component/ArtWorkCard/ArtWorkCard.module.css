@@ -1,0 +1,119 @@
+.container {
+  width: 80%;
+  margin: 0px auto;
+  height: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.cardImage {
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  justify-content: space-between;
+}
+.cardItem {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.cardContent {
+  background-color: black;
+  height: 97%;
+  width: 45%;
+  border-radius: 1rem;
+}
+.title {
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  margin-top: 0.5rem;
+}
+.text {
+  font-size: 1rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.buttonContainer {
+  margin-right: 2rem;
+  text-align: right;
+}
+.creator {
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+}
+.buttonSold {
+  background-color: #ea4c89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.buttonForSale {
+  background-color: #664cea;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.buttonForSale:hover,
+.buttonForSale:focus {
+  background-color: #f082ac;
+}
+.buttonSold:hover,
+.buttonSold:focus {
+  background-color: #664cea;
+}

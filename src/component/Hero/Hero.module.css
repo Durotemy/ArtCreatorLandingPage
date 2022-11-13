@@ -1,0 +1,44 @@
+.card {
+  background-color: #fff;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  padding: 20px;
+  margin: 0 auto;
+  width: 80%;
+  height: 300px;
+  margin-top: 4rem;
+  font-weight: bold;
+  font-size: 2rem;
+  color: white;
+  background: linear-gradient(89.69deg, #14b7eb -5.27%, #0f6393 102.31%);
+  border-radius: 25px;
+}
+.card h1,
+h4 {
+  padding-left: 4rem;
+}
+.card h4 {
+  padding-top: 9rem;
+}
+.section2 {
+  background-color: #1e1e1e;
+}
+.section2Header {
+  width: 80%;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 3rem;
+  margin: 0 auto;
+}
+.horizontalLine {
+  width: 80%;
+  margin-top:9rem;
+  margin: 0 auto;
+}
+.team{
+  margin-bottom: 9rem;
+  margin-right:39rem;
+}
+.team > p{
+  margin-bottom: 4rem;
+}

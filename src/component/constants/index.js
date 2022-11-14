@@ -91,20 +91,21 @@ export const MainCard = [
   },
 ]
 
-export const Carousels = [
+export const CarouselDetails = [
   {
     id:'1',
-    header:' Discover, appreciate and collect the best art available',
+    header:`Discover, appreciate and
+    collect the best  `,
     team:'The Illustra team'
   },
   {
     id:'2',
-    header:'  lorem lorem lorem lorem lorem lorem lorem lorem lorem',
+    header:`Get the best available deals here, appreciate`,
     team:'The Illustra team'
   },
   {
     id:'3',
-    header:' Discover, appreciate and collect the best art available',
+    header:' Discover, Recover and Take over',
     team:'The Illustra team'
   }
 ]

@@ -1,24 +1,22 @@
 import React from "react";
-// import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 // import {Carousels} from "../constants/index";
-// import {Carousels} from "../constants/index"
-Carousel = () => {
+import { CarouselDetails } from "../constants/index";
+import style from "./Carousel.module.css";
+const CarouselSlide = () => {
   return (
     <Carousel>
-      <div>
-        <h1>
-          Discover, appreciate and <br /> collect the best art available,
-        </h1>
-      </div>
-      <div>
-        <p className="legend">Legend 2</p>
-      </div>
-      <div>
-        <p className="legend">Legend 3</p>
-      </div>
+     
+        {CarouselDetails.map((item) => (
+          <div>
+            <h1 className={style.header}>{item.header}</h1>
+            <p className={style.team}></p>
+          </div>
+        ))}
+    
     </Carousel>
   );
 };
 
-export default Carousel;
+export default CarouselSlide;

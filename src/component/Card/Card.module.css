@@ -14,13 +14,57 @@
   margin: 0 auto;
   text-align: center;
   height: 20rem;
+  margin-top: 4rem;
 }
 .wrap {
   display: flex;
   align-items: center;
-  color:white;
+  color: white;
   background-color: #111113;
   border-radius: 10px;
-  height: 12rem;
-  width:15.5%;
+  height: 14rem;
+  width: 15.5%;
+}
+
+@media only screen and (max-width: 425px) {
+  .cardContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .wrap{
+    width: 100%;
+    margin: 0.5rem;
+  }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+  .cardContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .wrap{
+    width: 100%;
+    margin: 0.5rem;
+  }
+  /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px){
+  .cardContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .wrap{
+    width: 100%;
+    margin: 0.5rem;
+  }
+/*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px){
+/*Small smartphones [325px -> 425px]*/
 }

@@ -19,9 +19,9 @@ const ArtWork = () => {
                 <p className={style.creator}>Creator: {item.creator}</p>
                 <div className={style.buttonContainer}>
                   {!item.sold ? (
-                    <button className={style.buttonSold}>Sold</button>
+                    <button className={style.buttonSold}>For Sale</button>
                   ) : (
-                    <button className={style.buttonForSale}>For Sale</button>
+                    <button className={style.buttonForSale}>Sold</button>
                   )}
                 </div>
               </div>

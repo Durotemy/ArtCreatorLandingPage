@@ -3,7 +3,7 @@
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   padding: 20px;
   margin: 0 auto;
-  width: 80%;
+  width: 70%;
   height: 300px;
   margin-top: 4rem;
   font-weight: bold;
@@ -12,10 +12,10 @@
   background: linear-gradient(89.69deg, #14b7eb -5.27%, #0f6393 102.31%);
   border-radius: 25px;
 }
-.card h1,
+/* .card h1,
 h4 {
-  padding-left: 4rem;
-}
+  padding-left: 2rem;
+} */
 .card h4 {
   padding-top: 9rem;
 }
@@ -38,7 +38,4 @@ h4 {
 .team{
   margin-bottom: 9rem;
   margin-right:39rem;
-}
-.team > p{
-  margin-bottom: 4rem;
 }

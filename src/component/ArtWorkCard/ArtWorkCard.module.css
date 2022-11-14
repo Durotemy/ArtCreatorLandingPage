@@ -30,8 +30,8 @@
 }
 .cardContent {
   background-color: black;
-  height: 97%;
-  width: 45%;
+  height: 99%;
+  width: 40%;
   border-radius: 1rem;
 }
 .title {
@@ -42,7 +42,7 @@
 }
 .text {
   font-size: 1rem;
-  margin: 0.5rem;
+  margin: 0.2rem;
   padding: 0.5rem;
 }
 .buttonContainer {
@@ -68,20 +68,21 @@
   font-size: 14px;
   font-weight: 500;
   height: 40px;
-  line-height: 20px;
-  list-style: none;
-  margin: 0;
-  outline: none;
   padding: 10px 16px;
-  position: relative;
   text-align: center;
   text-decoration: none;
-  transition: color 100ms;
-  vertical-align: baseline;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
 }
+.buttonSold {
+  position: relative;
+  margin-right: -2rem;
+  top: -1.0rem;
+}
+.buttonForSale {
+  position: relative;
+  margin-right: -7rem;
+  margin-top: -5rem;
+}
+
 .buttonForSale {
   background-color: #664cea;
   border-radius: 8px;
@@ -95,19 +96,15 @@
   font-size: 14px;
   font-weight: 500;
   height: 40px;
-  line-height: 20px;
   list-style: none;
   margin: 0;
-  outline: none;
   padding: 10px 16px;
-  position: relative;
   text-align: center;
-  text-decoration: none;
-  transition: color 100ms;
-  vertical-align: baseline;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+}
+.buttonForSale {
+  position: relative;
+  margin-right: -2rem;
+  /* margin-top: -19rem; */
 }
 .buttonForSale:hover,
 .buttonForSale:focus {
@@ -116,4 +113,31 @@
 .buttonSold:hover,
 .buttonSold:focus {
   background-color: #664cea;
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+    margin-top: 55rem;
+    flex-direction: column;
+  }
+  .cardItem {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .cardContent {
+    width: 200%;
+  }
+  .buttonContainer {
+    text-align: center;
+  }
+  .image {
+    width: 400%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .cardContent {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+  }
 }

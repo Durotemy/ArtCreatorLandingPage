@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./Card.module.css";
 import { card } from "../constants/index";
+console.log("card", card.length)
 const Card = () => {
   return (
     <div className={style.cardContainer}>

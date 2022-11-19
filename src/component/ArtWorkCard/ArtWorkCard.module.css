@@ -29,16 +29,26 @@
   flex-direction: row;
 }
 .cardContent {
-  background-color: black;
+  background-color: #111113;
   height: 99%;
   width: 40%;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
 }
+
 .title {
   text-align: center;
   font-size: 1.5rem;
-  text-decoration: underline;
-  margin-top: 0.5rem;
+  margin-top: 0.6rem;
+  line-height: 1rem;
+  text-underline-offset: 5px;
+  padding-bottom: 15px;
+  border-bottom-style: solid;
+  border-bottom-width: 3.1px;
+  width: 70%;
+  display: flex;
+  margin: 1rem;
+  justify-content: center;
 }
 .text {
   font-size: 1rem;
@@ -73,9 +83,9 @@
   text-decoration: none;
 }
 .buttonSold {
-  position: relative;
+  /* position: relative;
   margin-right: -2rem;
-  top: -1.0rem;
+  top: -1rem; */
 }
 .buttonForSale {
   position: relative;
@@ -95,15 +105,15 @@
     sans-serif;
   font-size: 14px;
   font-weight: 500;
-  height: 40px;
+  /* height: 40px; */
   list-style: none;
   margin: 0;
   padding: 10px 16px;
   text-align: center;
 }
 .buttonForSale {
-  position: relative;
-  margin-right: -2rem;
+  /* position: relative; */
+  /* margin-right: -2rem; */
   /* margin-top: -19rem; */
 }
 .buttonForSale:hover,
@@ -113,6 +123,15 @@
 .buttonSold:hover,
 .buttonSold:focus {
   background-color: #664cea;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icon{
+  margin-left:1rem;
+  margin-top:8px;
 }
 
 @media screen and (max-width: 1200px) {

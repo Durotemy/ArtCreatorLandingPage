@@ -6,6 +6,12 @@ import image5 from "../../images/creator9 1.png"
 import mainCardImage from "../../images/image 4.png"
 import mainCardImage2 from "../../images/image 6.png";
 
+import wike from "../../images/wike.jpeg";
+import makinde from "../../images/makinde.jpeg";
+import utorm from "../../images/utorm.jpeg"
+
+
+
 
 export const navLinks = [
   {
@@ -27,29 +33,35 @@ export const navLinks = [
 
 export const card = [
   {
+    id:"1",
     image:image1,
     name: "Emma",
     likes: 2,
     sold: 3,
   },
-  { image:image2,
+  { 
+    id:"2",
+    image:image2,
     name: "Hannah",
     likes: 4,
     sold: 5,
   },
   {
+    id:"3",
     image:image3,
     name: "Esther",
     likes: 6,
     sold: 7,
   },
   {
+    id:"4",
     image:image4,
     name: "Sarah",
     likes: 8,
     sold: 9,
   },
   {
+    id:"5",
     image:image5,
     name: "Loveth",
     likes: 1,
@@ -94,18 +106,20 @@ export const MainCard = [
 export const CarouselDetails = [
   {
     id:'1',
-    header:`Discover, appreciate and
-    collect the best  `,
-    team:'The Illustra team'
+    title:`Discover, appreciate and collect the best  `,
+    writer:'The Illustra team',
+    image: wike
   },
   {
     id:'2',
-    header:`Get the best available deals here, appreciate`,
-    team:'The Illustra team'
+    title:`Get the best available deals here, appreciate`,
+    writer:'The Illustra team',
+    image:makinde
   },
   {
     id:'3',
-    header:' Discover, Recover and Take over',
-    team:'The Illustra team'
+    title:' Discover, Recover and Take over',
+    writer:'The Illustra team',
+    image: utorm
   }
 ]

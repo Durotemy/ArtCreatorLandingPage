@@ -1,7 +1,6 @@
 import React from "react";
 import Hero from "./component/Hero/Hero";
 import { wike,makinde, utorm } from "./images";
-// import { CarouselDetails } from "./component/constants";
 export const CarouselDetail = [
   {
     id: "1",
@@ -26,12 +25,5 @@ export const CarouselDetail = [
 export const Banner = () => {
   return (
     <Hero />
-    // <div>
-    //   {CarouselDetails.map((item, index) => {
-    //     return (
-    //       <Hero title={item?.title} image={item?.image} writer={item?.writer} />
-    //     );
-    //   })}
-    // </div>
   );
 };

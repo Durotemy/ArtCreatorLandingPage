@@ -11,6 +11,7 @@ function App() {
       <NavBar />
       <div className="hero">
         <Banner />
+        <br/>
         <div className="cardContainer">
           <Card />
         </div>

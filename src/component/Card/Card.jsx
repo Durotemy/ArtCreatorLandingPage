@@ -22,9 +22,7 @@ const Card = () => {
     nextArrow: <SampleNextArrow />,
   }
   return (
-
       <Slider {...settings}>
-       
       {card.map((item, index) => {
         return (
           <div className={style.wrap}  style={{ position:"relative" }}>
@@ -34,7 +32,7 @@ const Card = () => {
               <p className={style.icon}>
                 <HiOutlineCheck />
               </p>
-              <h2>{item.name}</h2>
+              <h4 className={style.name}>{item.name}</h4>
               <div className={style.soldLikes}>
                 <p><FcLike className={style.heart}/>Likes: {item.likes}</p>
                 <p>Ⓢ Sold: {item.sold} ETH</p>
@@ -74,7 +72,7 @@ function SamplePrevArrow(props) {
   return (
     <div
       className={"prev__arrow"}
-      style={{ position: "absolute", top: "100px", left: "0px", zIndex: "100" }}
+      style={{ position: "absolute", top: "100px", left: "-15px", zIndex: "100" }}
       onClick={onClick}
     >
     {card.length>4 && <AiOutlineLeft size="40" style={{ color: "white" }} />}  

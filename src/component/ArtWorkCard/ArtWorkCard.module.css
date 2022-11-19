@@ -7,15 +7,15 @@
 }
 .image {
   width: 100%;
-  height: auto;
-  border-radius: 10px;
-  transition: all 0.3s ease;
+  height: 50vh;
+  border-radius: 1px;
+  
 }
 .cardImage {
   width: 50%;
   height: 100%;
   border-radius: 10px;
-  transition: all 0.3s ease;
+ 
 }
 .card {
   display: flex;
@@ -31,8 +31,8 @@
 .cardContent {
   background-color: #111113;
   height: 99%;
-  width: 40%;
-  border-radius: 0.5rem;
+  width: 50%;
+  border-radius: 10px;
   margin-right: 1rem;
 }
 
@@ -83,15 +83,19 @@
   text-decoration: none;
 }
 .buttonSold {
-  /* position: relative;
-  margin-right: -2rem;
-  top: -1rem; */
+  position: relative;
+  margin-right: 0.2rem;
+  top: -1rem;
 }
 .buttonForSale {
   position: relative;
-  margin-right: -7rem;
-  margin-top: -5rem;
+  /* margin-right: -7rem; */
+  top: -1rem;
 }
+/* .buttonSold {
+  position: relative;
+  bottom:1rem;
+} */
 
 .buttonForSale {
   background-color: #664cea;
@@ -111,11 +115,6 @@
   padding: 10px 16px;
   text-align: center;
 }
-.buttonForSale {
-  /* position: relative; */
-  /* margin-right: -2rem; */
-  /* margin-top: -19rem; */
-}
 .buttonForSale:hover,
 .buttonForSale:focus {
   background-color: #f082ac;
@@ -131,16 +130,16 @@
 }
 .icon{
   margin-left:1rem;
-  margin-top:8px;
+  margin-top:-6px;
 }
 
 @media screen and (max-width: 1200px) {
-  .card {
+  /* .card {
     margin-top: 55rem;
     flex-direction: column;
-  }
+  } */
   .cardItem {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -158,5 +157,8 @@
   .cardContent {
     margin-bottom: 3rem;
     padding-bottom: 2rem;
+  }
+  .cardItem{
+    width:50%;
   }
 }

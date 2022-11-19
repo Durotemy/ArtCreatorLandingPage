@@ -134,10 +134,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-  /* .card {
-    margin-top: 55rem;
-    flex-direction: column;
-  } */
+  
   .cardItem {
     width: 100%;
     display: flex;

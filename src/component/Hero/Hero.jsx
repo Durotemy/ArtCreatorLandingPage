@@ -26,7 +26,7 @@ const Hero = () => {
                 alt="First slide"
                 style={{borderRadius:"2rem"}}
               />
-              <Carousel.Caption>
+              <Carousel.Caption className={style.caption}>
                 <h1>{item?.title}</h1>
                 <p>{item?.team}</p>
               </Carousel.Caption>

@@ -3,8 +3,6 @@
 .body {
   background-color: #1e1e1e;
   font-family: 'Oswald', sans-serif;
-  /* font-size: small; */
-
 }
 .hero {
   /* margin-top: 10rem; */
@@ -13,7 +11,7 @@
   border-radius: 2rem;
 }
 .cardContainer > div {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -22,11 +20,11 @@
   text-align: center;
   height: 20rem;
   margin-top: 4rem;
-  /* margin:1rem; */
+ 
 }
 
 .container > div {
-  width: 80%;
+  width: 100%;
   margin: 0px auto;
   height: 100%;
   border-radius: 10px;
@@ -41,22 +39,22 @@
   display: flex;
   flex-wrap: wrap;
   color: white;
-  margin:1rem;
+  margin:0rem;
 }
 
-.slick-slide {
+/* .slick-slide {
   margin: 0.3px;
-}
+} */
 
 .slick-list {
   margin: 0 -4px;
-  /* padding: px; */
+  padding: px;
 }
-.slick-slide .drop-shadow {
+/* .slick-slide .drop-shadow {
   box-shadow: none; 
   transition: box-shadow 0.1s ease-in-out; 
 }
 
 .slick-slide.slick-active .drop-shadow {
   box-shadow: 0px 0px 43px 0px rgba(0, 0, 0, 0.35); 
-}
+} */

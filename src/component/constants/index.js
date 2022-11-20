@@ -66,7 +66,14 @@ export const card = [
     name: "Loveth",
     likes: 1,
     sold: 2,
-  }
+  },
+  { 
+    id:"6",
+    image:image2,
+    name: "Durotimi",
+    likes: 4,
+    sold: 5,
+  },
 ];
 
 export const MainCard = [

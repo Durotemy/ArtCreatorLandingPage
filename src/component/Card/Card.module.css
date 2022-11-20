@@ -5,14 +5,13 @@
   align-items: center;
   margin: 0px auto;
   width:40%;
-
 }
 
 .cardContainer {
-  width: 95%;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin: 0 auto;
   text-align: center;
@@ -20,14 +19,15 @@
   margin-top: 4rem;
 }
 .wrap {
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
+  justify-content: space-between;
   align-items: center;
   color: white;
   background-color: #111113;
   border-radius: 10px;
   height: 18rem;
-  width: 10.5%;
+  width: 12rem !important;
 }
 .index {
   position: relative;
@@ -68,11 +68,11 @@
   color:red;
 }
 .slick-list {
-  margin: 0 -7px !important;
+  margin: 0 0px !important;
 }
 
 .slick-slide > div {
-  padding: 0 7px !important;
+  padding: 0 1px !important;
 }
 @media only screen and (max-width: 425px) {
   .cardContainer {
